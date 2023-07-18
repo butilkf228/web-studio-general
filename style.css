@@ -454,3 +454,57 @@ p {
   height: 44px;
   color: rgba(175, 177, 184, 1)
 }
+
+.conta-cli {
+  width: 100%;
+}
+
+.clients-list {
+  display: flex;
+}
+
+.sec-clients-text {
+  margin-left: 40%;
+  margin-bottom: 50px;
+}
+
+.client-2,
+.client-3,
+.client-4,
+.client-5,
+.client-6 {
+  margin-left: 30px;
+}
+
+.client-1,
+.client-2,
+.client-3,
+.client-4,
+.client-5,
+.client-6 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 90px;
+  width: 168px;
+  border: 1px solid #AFB1B8;
+  border-radius: 4px;
+}
+
+.cli-1,
+.cli-2,
+.cli-3,
+.cli-4,
+.cli-5,
+.cli-6 {
+  color: #AFB1B8;
+}
+
+.client-1 {
+  margin-left: 90px;
+}
+
+.client-6 {
+  margin-right: 215px;
+}
+
