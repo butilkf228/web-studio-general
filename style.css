@@ -541,8 +541,12 @@ p {
   text-align: center;
 }
 
-.text-2-w,
-.text-3-w,
-.text-1-w {
-  background-color: rgba(47,48,58,0.8);   
+.back-3,
+.back-2,
+.back-1 {
+  background-color: rgba(47,48,58,0.8);
+  width: 370px;
+  height: 100px;
+  position: absolute;
+  bottom: 4px;
 }
