@@ -550,3 +550,37 @@ p {
   position: absolute;
   bottom: 4px;
 }
+
+.modaal {
+  width: 400px;
+  height: 450px;
+  position: fixed;
+  left: 35%;
+  top: 25%;
+  background-color: #ffffff;
+  opacity: 0;
+  pointer-events: none;
+  color: black;
+  border-radius: 4px;
+}
+
+.contacts-item:hover .modaal {
+  opacity: 1;
+}
+
+.testt {
+  display: flex;
+  justify-content: end;
+}
+
+.cross-sv {
+  position: absolute;
+  margin-right: 14px;
+  margin-top: 14px;
+}
+
+.circle {
+  position: relative;
+  margin-right: 8px;
+  margin-top: 8px;
+}
