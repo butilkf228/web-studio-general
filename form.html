@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form</title>
+</head>
+<body>
+    <form>
+        <h2>Зареєструйтесь!</h2>
+        <ul class="form-fields">
+            <li class="field">
+                <label class="lab-1">
+                    І'мя
+                </label>
+                    <input type="text" class="name">
+                    <span class="icon"></span>
+            </li>
+            <li class="field">
+                <label>
+                    Ел. пошта
+                </label class="lab-2">
+                    <input type="text" class="email">
+                    <span class="icon"></span>
+            </li>
+        </ul>
+    </form>
+    <style>
+        ul{
+            list-style: none;
+        }
+
+        .field{
+            margin-bottom: 30px;
+            display: flex;
+            flex-direction: column;
+            position: relative;
+        }
+
+        .form .icon {
+            top: 30px;
+            left: 10px;
+            position: absolute;
+            display: block;
+            width: 15px;
+            height: 15px;
+            background-color: teal;
+        }
+
+        .field input{
+            width: 150px;
+            height: 30px;
+            padding-left: 30px;
+        }
+
+        /* .field input:focus + .icon,
+        .field input:hover + .icon{
+            background-color: blue;
+        } */
+
+        .form:focus-within .icon{
+            background-color: blue;
+        }
+
+        .field:focus-within .icon{
+            border-color: blue;
+        }
+    </style>
+</body>
+</html>
