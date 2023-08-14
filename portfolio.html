@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WEB studio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="node_modules/modern-normalize/modern-normalize.css">    
+    <!-- Зовнішній файл стилю -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Шапка -->
+    <header>
+        <div class="container header">
+            <nav>
+              <!-- Логотип -->
+              <a class="logo" href="./">Web<span>Studio</span></a>
+              <!--Навігація -->
+              <ul class="nav-list">
+                <li class="nav-item">
+                  <a class="nav-link" href="">Студія</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="./portfolio.html">Портфоліо</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="">Контакти</a>
+                </li>
+              </ul>
+              <!-- Контакти -->
+              <ul class="contacts-list">
+             <li class="contacts-item">
+               <a class="contacts-link" href="">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="12" viewBox="0 0 16 12" fill="none">
+                  <path d="M14.5 0H1.50001C0.672854 0 0 0.672853 0 1.50001V10.5C0 11.3271 0.672854 12 1.50001 12H14.5C15.3271 12 16 11.3271 16 10.5V1.50001C16 0.672853 15.3271 0 14.5 0ZM14.5 0.999994C14.5679 0.999994 14.6325 1.01409 14.6916 1.0387L8 6.83838L1.30833 1.0387C1.36742 1.01412 1.43204 0.999994 1.49998 0.999994H14.5ZM14.5 11H1.50001C1.22414 11 0.999996 10.7759 0.999996 10.5V2.09521L7.67236 7.87792C7.76661 7.95944 7.8833 7.99999 8 7.99999C8.1167 7.99999 8.23339 7.95948 8.32764 7.87792L15 2.09521V10.5C15 10.7759 14.7759 11 14.5 11Z" fill="#757575"/>
+                </svg>
+                info@devstudio.com</a>
+                <ul class="modaal">
+                  <li class="testt">
+                    <svg class="circle" xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30" fill="none">
+                      <circle cx="15" cy="15" r="15" fill="white"/>
+                      <circle cx="15" cy="15" r="14.5" stroke="black" stroke-opacity="0.1"/>
+                    </svg>
+                    <svg class="cross-sv" xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18" fill="none">
+                      <path d="M15 4.10786L13.8921 3L9.5 7.39214L5.10786 3L4 4.10786L8.39214 8.5L4 12.8921L5.10786 14L9.5 9.60786L13.8921 14L15 12.8921L10.6079 8.5L15 4.10786Z" fill="black"/>
+                    </svg>
+                  </li>
+                  <li class="modal-text">
+                    <h2 class="text-inmodal">Залиште свої дані, ми вам передзвонимо</h2>
+                  </li>
+                  <li class="submit-1">
+                    <label for="nm" class="modaltext1">І'мя</label>
+                    <input name="nm" type="text" class="submit1">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18" fill="none" class="svg1">
+                      <g clip-path="url(#clip0_3_6998)">
+                        <path d="M9 9C10.6575 9 12 7.6575 12 6C12 4.3425 10.6575 3 9 3C7.3425 3 6 4.3425 6 6C6 7.6575 7.3425 9 9 9ZM9 10.5C6.9975 10.5 3 11.505 3 13.5V14.25C3 14.6625 3.3375 15 3.75 15H14.25C14.6625 15 15 14.6625 15 14.25V13.5C15 11.505 11.0025 10.5 9 10.5Z" fill="#212121"/>
+                      </g>
+                      <defs>
+                        <clipPath id="clip0_3_6998">
+                          <rect width="18" height="18" fill="white"/>
+                      </clipPath>
+                    </defs>
+                  </svg>
+                  </li>
+                  <li class="submit-2">
+                    <label for="sub2" class="modaltext2">Телефон</label>
+                    <input name="sub2" type="tel" class="submit2">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18" fill="none" class="svg2">
+                      <g clip-path="url(#clip0_3_7004)">
+                        <path d="M13.996 11.1226L12.1579 10.9127C11.7164 10.862 11.2822 11.014 10.971 11.3252L9.63945 12.6568C7.59144 11.6147 5.91251 9.94296 4.87041 7.8877L6.20922 6.54888C6.5204 6.2377 6.67237 5.80349 6.62171 5.36205L6.41185 3.53836C6.325 2.80745 5.70988 2.25745 4.97173 2.25745H3.71976C2.902 2.25745 2.22175 2.93771 2.2724 3.75547C2.65595 9.93572 7.59868 14.8712 13.7717 15.2548C14.5894 15.3054 15.2697 14.6252 15.2697 13.8074V12.5555C15.2769 11.8245 14.7269 11.2094 13.996 11.1226Z" fill="#212121"/>
+                      </g>
+                      <defs>
+                        <clipPath id="clip0_3_7004">
+                          <rect width="18" height="18" fill="white"/>
+                      </clipPath>
+                    </defs>
+                  </svg>
+                  </li>
+                  <li class="submit-3">
+                    <label for="email" class="modaltext3">Пошта</label>
+                    <input name="email" type="email" class="submit3">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18" fill="none" class="svg3">
+                      <g clip-path="url(#clip0_3_7010)">
+                        <path d="M15 3H3C2.175 3 1.5075 3.675 1.5075 4.5L1.5 13.5C1.5 14.325 2.175 15 3 15H15C15.825 15 16.5 14.325 16.5 13.5V4.5C16.5 3.675 15.825 3 15 3ZM14.7 6.1875L9.3975 9.5025C9.1575 9.6525 8.8425 9.6525 8.6025 9.5025L3.3 6.1875C3.1125 6.0675 3 5.865 3 5.6475C3 5.145 3.5475 4.845 3.975 5.1075L9 8.25L14.025 5.1075C14.4525 4.845 15 5.145 15 5.6475C15 5.865 14.8875 6.0675 14.7 6.1875Z" fill="#212121"/>
+                      </g>
+                      <defs>
+                      <clipPath id="clip0_3_7010">
+                      <rect width="18" height="18" fill="white"/>
+                      </clipPath>
+                      </defs>
+                    </svg>
+                  </li>
+                  <li class="submit-4">
+                    <label for="com" class="modaltext4">Коментар</label>
+                    <input name="com" type="text" class="submit4" placeholder="Введіть текст">
+                  </li>
+                  <li class="button-55">
+                    <button type="button" class="button5">Відправити</button>
+                  </li>
+                </ul>
+              </li>
+             <li class="contacts-item">
+               <a class="contacts-link" href="">
+                <svg xmlns="http://www.w3.org/2000/svg" width="10" height="16" viewBox="0 0 10 16" fill="none">
+                  <path d="M8.5 0H1.5C0.672848 0 0 0.672848 0 1.5V14.5C0 15.3272 0.672848 16 1.5 16H8.5C9.32715 16 10 15.3272 10 14.5V1.5C10 0.672848 9.32715 0 8.5 0ZM1.5 1H8.5C8.77588 1 9 1.22412 9 1.5V12H1V1.5C1 1.22412 1.22412 1 1.5 1ZM8.5 15H1.5C1.22412 15 1 14.7759 1 14.5V13H9V14.5C9 14.7759 8.77588 15 8.5 15Z" fill="#757575"/>
+                  <path d="M2.35355 13.7389C2.54882 13.9213 2.54882 14.2169 2.35355 14.3992C2.15828 14.5816 1.84172 14.5816 1.64645 14.3992C1.45118 14.2169 1.45118 13.9213 1.64645 13.7389C1.84172 13.5566 2.15828 13.5566 2.35355 13.7389Z" fill="#757575"/>
+                </svg>
+                +38 096 111 11 11</a>
+              </li>
+            </nav>
+            </ul>
+            
+          </div>
+    </header>
+    <!--Основна секція-->
+<main>
+    <section class="section">
+        <ul class="buttons-main">
+            <li><button class="button-1" type="button" href="">Усе</button></li>
+            <li><button class="button-2" type="button" href="">Веб-сайти</button></li>
+            <li><button class="button-3" type="button" href="">Застосунки</button></li>
+            <li><button class="button-4" type="button" href="">Дизайн</button></li>
+            <li><button class="button-5" type="button" href="">Маркетинг</button></li>
+        </ul>
+            <ul class="row-2">
+                <li class="imagecard-1">
+                    <a class="carde-1" href=""><img class="modal-img-1" src="./images/portfolio/laptop.jpg" alt="Ноут" width="370" height="294">
+                      <div class="wer">
+                        <p class="modal-card-text">Ресурс пропонує комплексні<br> пропозиції з різним рівнем<br> функціоналу та сервісів. Все це<br> дозволить відвідувачу отримати<br> вичерпні відомості про компанію<br> чи приватну особу.</p>
+                      </div>
+                      <h2 class="name-1">Технокряк</h2>
+                      <p class="texti-1">Веб-сайт</p>
+                    </a>
+                </li>
+                <li class="imagecard-2">
+                    <a class="carde-2" href=""><img class="modal-img-2" src="./images/portfolio/players.jpg" alt="Игроки" width="370" height="294">
+                        <h2 class="name-2">Постер New Orlean vs Golden Star</h2>
+                        <p class="texti-2">Дизайн</p>
+                    </a>
+                </li>
+                <li class="imagecard-3">
+                    <a class="carde-3" href=""><img class="modal-img-3" src="./images/portfolio/seafood.jpg" alt="Еда" width="370" height="294">
+                        <h2 class="name-3">Ресторан Seafood</h2>
+                        <p class="texti-3">Додаток</p>
+                    </a>
+                </li>
+            </ul>
+            <ul class="row-2">
+                <li class="imagecard-4">
+                    <a class="carde-4" href=""><img class="modal-img-4" src="./images/portfolio/headphone.jpg" alt="Наушники" width="370" height="294">
+                        <h2 class="name-4">Проєкт Prime</h2>
+                        <p class="texti-4">Маркетинг</p>
+                    </a>
+                </li>
+                <li class="imagecard-5">
+                    <a class="carde-5" href=""><img class="modal-img-5" src="./images/portfolio/boxes.jpg" alt="Две коробки" width="370" height="294">
+                        <h2 class="name-5">Проєкт Boxes</h2>
+                        <p class="texti-5">Застосунки</p>
+                    </a>
+                </li>
+                <li class="imagecard-6">
+                    <a class="carde-6" href=""><img class="modal-img-6" src="./images/portfolio/monitor.jpg" alt="Черный монитор" width="370" height="294">
+                        <h2 class="name-6">Inspiration has no Borders</h2>
+                        <p class="texti-6">Веб-сайт</p>
+                    </a>
+                </li>
+            </ul>
+            <ul class="row-3">
+                    <li class="imagecard-7">
+                        <a href=""><img src="./images/portfolio/magazine.jpg" alt="Книга в развороте" width="370" height="294">
+                            <h2 class="name-7">Видавництво Limited Edition</h2>
+                    <p class="texti-7">Дизайн</p>
+                    </a>
+                </li>
+                <li class="imagecard-8">
+                    <a href=""><img src="./images/portfolio/labeltag.jpg" alt="Этикетка с надписью LA BEL TAG" width="370" height="294">
+                        <h2 class="name-8">Проєкт LAB</h2>
+                        <p class="texti-8">Маркетинг</p>
+                    </a>
+                </li>
+                <li class="imagecard-9">
+                    <a href=""><img src="./images/portfolio/desktop.jpg" alt="Ноутбук" width="370" height="294">
+                        <h2 class="name-9">Growing Business</h2>
+                        <p class="texti-9">Застосунки</p>
+                    </a>
+                </li>
+            </ul>
+        </ul>
+</section>
+</main>
+    <!--Footer-->
+    <footer>
+        <div class="container">
+            <a class="logo" href="./">Web<span>Studio</span></a>
+          <address>м. Київ, пр-т Лесі Українки, 26</address>
+          <ul class="contacts-list">
+            <li class="contacts-item">
+              <a class="contacts-link" href="">info@devstudio.com</a>
+            </li>
+            <li class="contacts-item">
+              <a class="contacts-link" href="">+38 096 111 11 11</a>
+            </li>
+           </ul>
+          </div>
+    </footer>
+</body>
+</html>
