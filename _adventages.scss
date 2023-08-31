@@ -1,0 +1,25 @@
+.advantages {
+  display: flex;
+  justify-content: space-between;
+}
+
+.advantages .item {
+  width: 270px;
+}
+.advantages .title,
+.advantages .text {
+  font-size: 14px;
+  line-height: 16px;
+}
+.advantages .title {
+  font-weight: 700;
+  text-transform: uppercase;
+
+  margin-bottom: 10px;
+}
+
+.advantages .text {
+  font-weight: 400;
+
+  color: $secondaryTextColor;
+}

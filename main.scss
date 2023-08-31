@@ -1,7 +1,13 @@
+@import './mixins';
 @import './variables';
 @import './common';
 @import './utils';
 @import './header';
+@import './adventages';
+@import './footer';
+@import './hero';
+@import './what-we-do';
+@import './team';
 :root {
     --primary-text-color: #212121;
     --secondary-text-color: #757575;
@@ -130,28 +136,28 @@
   }
   
   .nav-link {
-    color: var(--primary-text-color);
+    color: $primaryTextColor;
   
     padding-top: 32px;
     padding-bottom: 32px;
   }
   
   .contacts-link {
-    color: var(--secondary-text-color);
+    color: $secondaryTextColor;
   }
   
   .nav-link:hover,
   .nav-link:focus,
   .contacts-link:hover,
   .contacts-link:focus {
-    color: var(--accent-color);
+    color: $accentColor;
   }
   
   /* Герой */
   .hero {
     padding-top: 200px;
     padding-bottom: 200px;
-    background-color: var(--hero-background-color);
+    background-color: $heroBackgroundColor;
   }
   
   .hero .container {
@@ -171,7 +177,7 @@
     letter-spacing: 0.06em;
     text-transform: uppercase;
   
-    color: var(--background-color);
+    color: $backgroundColor;
   }
   
   .hero-button {
@@ -187,8 +193,8 @@
     letter-spacing: 0.06em;
     text-align: center;
   
-    color: var(--background-color);
-    background-color: var(--accent-color);
+    color: $backgroundColor;
+    background-color: $accentColor;
   }
   
   /* Переваги */
@@ -216,7 +222,7 @@
   .advantages .text {
     font-weight: 400;
   
-    color: var(--secondary-text-color);
+    color: $secondaryTextColor;
   }
   /* Чим ми займаємось */
   
@@ -244,15 +250,15 @@
     text-align: center;
     letter-spacing: 0.03em;
   
-    color: var(--secondary-text-color);
+    color: $secondaryTextColor;
   }
   /* футер */
   .footer {
-    background-color: var(--hero-background-color);
+    background-color: $heroBackgroundColor;
   }
   
   .footer .logo > span {
-    color: var(--background-color);
+    color: $backgroundColor;
   }
   
   address {
@@ -260,7 +266,7 @@
     font-size: 14px;
     line-height: 24px;
   
-    color: var(--background-color);
+    color: $backgroundColor;
   }
   
   .footer .contacts-link {
@@ -436,17 +442,17 @@
   
   .network-list a:hover,
   .network-list a:focus {
-    background-color: var(--accent-color);
+    background-color: $accentColor;
   }
   
   .network-list a:hover .network-icon,
   .network-list a:focus .network-icon {
-    fill: var(--background-color);
+    fill: $backgroundColor;
   }
   
   .network-list a:hover,
   .network-list a:focus {
-    background-color: var(--accent-color);
+    background-color: $accentColor;
     border-radius: 50%;
   }
   
@@ -723,7 +729,7 @@
     left: 50%;
     transform: translateX(-50%);
     transition: 300ms cubic-bezier(0.4, 0, 0.2, 1) 150ms;
-    background-color: var(--accent-color);
+    background-color: $accentColor;
   }
   
   .nav-link:hover::after {
